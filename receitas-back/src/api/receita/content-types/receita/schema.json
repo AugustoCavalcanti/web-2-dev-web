@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "receitas",
+  "info": {
+    "singularName": "receita",
+    "pluralName": "receitas",
+    "displayName": "Receita"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Titulo": {
+      "type": "string"
+    },
+    "Ingredientes": {
+      "type": "richtext"
+    },
+    "ModoDePreparo": {
+      "type": "richtext"
+    }
+  }
+}
